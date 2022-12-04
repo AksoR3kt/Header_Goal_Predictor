@@ -2,7 +2,8 @@ import numpy as np
 import pickle
 import streamlit as st
 
-loaded_model = pickle.load(open("C:/Users/akoja/Downloads/header_goals.sav", 'rb'))
+#loaded_model = pickle.load(open("C:/Users/akoja/Downloads/header_goals.sav", 'rb'))
+loaded_model = pickle.load(open("header_goals.sav", 'rb'))
 
 
 def header_prediction(input_data, comment):
